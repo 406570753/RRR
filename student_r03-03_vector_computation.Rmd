@@ -267,6 +267,9 @@ compact(nums)
 library(stringr)
 userNames <- c("Jay", "James", "Cathy", "Joe", "jen", "Frey")
 
+is_startsWidthJ <- function(x){
+  return(startsWith(x, "J"))
+}
 
 ```
 
