@@ -55,12 +55,6 @@ grades = c(80, 70, 69, 50, 92)
 
 fruits <- list("apple", "banana", "cherry")
 
-for (x in fruits) {
-  if (x == "cherry") {
-    break
-  }
-  print(x)
-}
 
 ```
 
@@ -69,14 +63,7 @@ for (x in fruits) {
 
 fruits <- list("apple", "banana", "cherry")
 
-fruits <- list("apple", "banana", "cherry")
 
-for (x in fruits) {
-  if (x == "banana") {
-    next
-  }
-  print(x)
-}
 
 ```
 
@@ -86,11 +73,7 @@ for (x in fruits) {
 adj <- list("red", "big", "tasty")
 fruits <- list("apple", "banana", "cherry")
 
-for (x in adj) {
-  for (y in fruits) {
-    print(paste(x, y))
-  }
-}
+
 
 ```
 

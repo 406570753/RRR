@@ -14,11 +14,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ```{r}
 height <- 170
 
-if (height >- 160) {
-  print("可以玩遊樂設施")
-} else {
-  print("不可以玩遊樂設施")
-}
+
 
 ```
 
@@ -29,17 +25,6 @@ if (height >- 160) {
 ```{r}
 score <- 72
 
-if (score >= 90) {
-  print("90分以上")
-} else if (score >= 80) {
-  print(">=80分")
-} else if (score >= 70) {
-  print(">=70分")
-} else if (score >= 60) {
-  print(">=60分")
-} else {
-  print("<60分")
-}
 
 ```
 
